@@ -1,0 +1,5 @@
+1.optimize the rendering process of msg after sending a msg, in present wheneve a person sends a msg whole msg state get iterated so why it become very insufficent where msg state length get too big. so the solution is to fetch only last some number of msg from server.
+
+2.build online status of user
+3.implement call and video feature on the app
+4.At last remove all the console.log statement from both backend and frontend

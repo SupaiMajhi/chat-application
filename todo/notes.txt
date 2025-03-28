@@ -1,0 +1,5 @@
+//loggedIn data
+{"status":"success","id":"67bdece619944ad880e25baa","username":"john cena","email":"john@gmail.com","createdAt":"2025-02-25T16:16:38.750Z","updatedAt":"2025-02-25T16:16:38.750Z","message":"Loggedin successfully"}
+
+//selectedUser
+{"selectedUser":{"_id":"67bdecfd19944ad880e25bad","username":"jane","email":"janegmail.com","createdAt":"2025-02-25T16:17:01.924Z","updatedAt":"2025-02-25T16:17:01.924Z","__v":0}}

@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    font-family: "Public Sans", serif;
+}
+
+
+@layer base {
+    li {
+        @apply text-[1.50rem] mb-3 cursor-pointer text-lightslategray;
+    }
+}
+
+@layer components {
+    .label {
+        @apply text-[0.8rem] text-davyGray font-[500];
+    }
+
+    .input-field {
+        @apply w-full h-full py-1 px-3 bg-white border rounded-sm text-davyGray text-[0.8rem] placeholder:text-[0.78rem] placeholder:font-medium;
+    }
+
+    .btnPrimary {
+        @apply w-full py-2 px-4 bg-mediumslateblue text-white text-[0.9rem] font-[400] rounded-sm hover:bg-hoverBtnColor;
+    }
+
+}
+
